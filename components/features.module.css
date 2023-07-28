@@ -1,12 +1,11 @@
 .features {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 1rem 2rem;
-  margin: 2.5rem 0 2rem;
+  display: flex;
+  justify-content: space-between; /* grid didnt work because it was filling empty space in, making gaps clickable */
 }
 .feature {
   align-items: center;
   display: inline-flex;
+  cursor: pointer;
 }
 .feature h4 {
   margin: 0 0 0 0.5rem;

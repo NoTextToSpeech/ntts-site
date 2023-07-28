@@ -2,17 +2,23 @@ import { useId } from "react";
 import styles from "./features.module.css";
 import useLocalesMap from "./use-locales-map";
 import { featuresMap, titleMap } from "../translations/text";
+import { useRouter } from "next/router";
 
 import MailIcon from "./icons/mail";
 import DiscordIcon from "./icons/discord";
 import FAQIcon from "./icons/faq";
 import YouTubeIcon from "./icons/youtube";
 
-export function Feature({ text, icon, url }) {
+export function Feature({ text, icon, url, internal }) {
+  const router = useRouter()
+
+  const redirect = () => {
+    window.location.href = url
+  }
   return (
-    <div className={styles.feature}>
+    <div className={styles.feature} onClick={redirect}>
       {icon}
-      <h4><a href={url}>{text}</a></h4>
+      <h4>{text}</h4>
     </div>
   );
 }
@@ -22,7 +28,7 @@ const FEATURES_LIST = [
     { key: "mail", icon: <MailIcon />, url: "mailto:notexttospeech@gmail.com" },
     { key: "discord", icon: <DiscordIcon />, url: "https://discord.com/invite/ntts" },
     { key: "yt", icon: <YouTubeIcon />, url: "https://www.youtube.com/notexttospeech" },
-    { key: "faq", icon: <FAQIcon />, url: "faq" },
+    { key: "faq", icon: <FAQIcon />, url: "faq", internal: true },
 ];
 
 export default function Features() {
