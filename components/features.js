@@ -9,7 +9,7 @@ import DiscordIcon from "./icons/discord";
 import FAQIcon from "./icons/faq";
 import YouTubeIcon from "./icons/youtube";
 
-export function Feature({ text, icon, url, internal }) {
+export function Feature({ text, icon, url }) {
   const router = useRouter()
 
   const redirect = () => {
@@ -28,7 +28,7 @@ const FEATURES_LIST = [
     { key: "mail", icon: <MailIcon />, url: "mailto:notexttospeech@gmail.com" },
     { key: "discord", icon: <DiscordIcon />, url: "https://discord.com/invite/ntts" },
     { key: "yt", icon: <YouTubeIcon />, url: "https://www.youtube.com/notexttospeech" },
-    { key: "faq", icon: <FAQIcon />, url: "faq", internal: true },
+    { key: "faq", icon: <FAQIcon />, url: "faq" },
 ];
 
 export default function Features() {
