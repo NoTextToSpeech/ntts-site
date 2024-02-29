@@ -41,6 +41,7 @@ const themeConfig = {
   },
   feedback: {
     content: () => useLocalesMap(feedbackLinkMap),
+    useLink: () => "https://discord.gg/ntts", 
   },
   navigation: false,
   sidebar: {
