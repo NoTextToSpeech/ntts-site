@@ -1,38 +1,11 @@
 {
-  "art-commissions": {
-    "title": "Art Commission Scam",
-    "type": "page"
-  },
-  "art-discount": {
-    "title": "Art Discount Scam",
-    "type": "page"
-  },
-  "discord-support": {
-    "title": "Discord Support Scam",
-    "type": "page"
-  },
-  "nsfw-server-link": {
-    "title": "NSFW Server Link Scam",
-    "type": "page"
-  },
-  "paid-gametester": {
-    "title": "Paid Game Tester Scam",
-    "type": "page"
-  },
-  "pirated-apps": {
-    "title": "Pirated Apps Scam",
-    "type": "page"
-  },
-  "refund": {
-    "title": "Refund Scam",
-    "type": "page"
-  },
-  "steam-gift-card": {
-    "title": "Steam Gift Card Scam",
-    "type": "page"
-  },
-  "unsolicited-gametester": {
-    "title": "Unsolicited Game Tester Scam",
-    "type": "page"
-  }
+  "art-commissions": "Art Commission Scam",
+  "art-discount": "Art Discount Scam",
+  "discord-support": "Discord Support Scam",
+  "nsfw-server-link": "NSFW Server Link Scam",
+  "paid-gametester": "Paid Game Tester Scam",
+  "pirated-apps": "Pirated Apps Scam",
+  "refund": "Refund Scam",
+  "steam-gift-card": "Steam Gift Card Scam",
+  "unsolicited-gametester": "Unsolicited Game Tester Scam"
 }
