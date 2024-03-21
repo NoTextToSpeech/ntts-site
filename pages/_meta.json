@@ -11,5 +11,9 @@
   "rules": {
     "title": "Rules",
     "type": "page"
+  },
+  "scams": {
+    "title": "Scams",
+    "type": "page"
   }
 }

@@ -1,0 +1,38 @@
+{
+  "art-commissions": {
+    "title": "Art Commission Scam",
+    "type": "page"
+  },
+  "art-discount": {
+    "title": "Art Discount Scam",
+    "type": "page"
+  },
+  "discord-support": {
+    "title": "Discord Support Scam",
+    "type": "page"
+  },
+  "nsfw-server-link": {
+    "title": "NSFW Server Link Scam",
+    "type": "page"
+  },
+  "paid-gametester": {
+    "title": "Paid Game Tester Scam",
+    "type": "page"
+  },
+  "pirated-apps": {
+    "title": "Pirated Apps Scam",
+    "type": "page"
+  },
+  "refund": {
+    "title": "Refund Scam",
+    "type": "page"
+  },
+  "steam-gift-card": {
+    "title": "Steam Gift Card Scam",
+    "type": "page"
+  },
+  "unsolicited-gametester": {
+    "title": "Unsolicited Game Tester Scam",
+    "type": "page"
+  }
+}
