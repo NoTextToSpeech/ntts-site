@@ -5,6 +5,7 @@ export default function Nextra({ Component, pageProps }) {
   return (
     <>
       <Component {...pageProps} />
+      <PlausibleProvider domain="notexttospeech.com" customDomain="https://googleisbad.wuemeli.com" selfHosted="true" trackOutboundLinks="true" />
     </>
   );
 }
