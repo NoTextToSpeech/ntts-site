@@ -14,19 +14,19 @@
   "dependencies": {
     "focus-visible": "^5.2.0",
     "intersection-observer": "^0.12.2",
-    "next": "^13.5.4",
-    "next-plausible": "^3.11.1",
-    "nextra": "^2.13.1",
-    "nextra-theme-docs": "^2.13.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-intersection-observer": "^9.5.2",
-    "zod": "^3.22.3"
+    "next": "^13.5.6",
+    "next-plausible": "^3.12.0",
+    "nextra": "^2.13.4",
+    "nextra-theme-docs": "^2.13.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-intersection-observer": "^9.10.3",
+    "zod": "^3.23.8"
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.16",
-    "postcss": "^8.4.31",
-    "tailwindcss": "^3.3.3"
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.4"
   },
   "prettier": {
     "embeddedLanguageFormatting": "off",
