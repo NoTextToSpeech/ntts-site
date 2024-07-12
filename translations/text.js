@@ -20,12 +20,14 @@ export const featuresMap = {
     mail: "Email",
     faq: "FAQ",
     discord: "Discord",
+    appeals: "Ban Appeals",
     yt: "YouTube",
   },
   "eg-AR": {
     mail: "بريد الكتروني",
     rules: "القوانين",
     discord: "ديسكورد",
+    appeals: "استئنافات الحظر",
     yt: "يوتيوب",
   }
 };

@@ -21,5 +21,10 @@
     "title": "Discord Link",
     "href": "https://discord.com/invite/B46HXK5fZm",
     "newWindow": true
+  },
+  "discord": {
+    "title": "Discord Appeal",
+    "href": "https://dyno.gg/form/ca720b3a",
+    "newWindow": true
   }
 }
