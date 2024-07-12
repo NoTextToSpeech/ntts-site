@@ -19,7 +19,7 @@ export const featuresMap = {
   "en-US": {
     mail: "Email",
     faq: "FAQ",
-    discord: "Discord"
+    discord: "Discord",
     appeals: "Ban Appeals",
     yt: "YouTube",
   },
@@ -27,6 +27,7 @@ export const featuresMap = {
     mail: "بريد الكتروني",
     rules: "القوانين",
     discord: "ديسكورد",
+    appeals: "استئنافات الحظر",
     yt: "يوتيوب",
   }
 };
