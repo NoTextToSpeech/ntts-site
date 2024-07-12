@@ -19,7 +19,8 @@ export const featuresMap = {
   "en-US": {
     mail: "Email",
     faq: "FAQ",
-    discord: "Discord",
+    discord: "Discord"
+    appeals: "Ban Appeals",
     yt: "YouTube",
   },
   "eg-AR": {
