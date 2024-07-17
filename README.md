@@ -14,6 +14,4 @@ And visit `localhost:3000` to preview your changes.
 
 ## Contributing
 
-If you want to contribute, you have two options. Chose whichever you feel more comfortable with.
-
-1. Submit a pull request on this repo with your contribution.
+If you want to contribute, you have to Fork this Project, And then Submit a Pull Request.
